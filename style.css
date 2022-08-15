@@ -1,0 +1,42 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #cad5e2;
+  background-image: url("./images/left\ banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.col-6 {
+  width: 48%;
+  padding: 0 15px;
+}
