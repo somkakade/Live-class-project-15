@@ -9,20 +9,14 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  width: 100vw;
-  height: 100vh;
-  background-color: #cad5e2;
-  background-image: url("./images/left\ banner.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
+  background-color: #000;
 }
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .row {
@@ -33,10 +27,158 @@ body {
 li {
   list-style-type: none;
 }
-a {
+a,
+a:hover {
   text-decoration: none;
+  color: #fff;
 }
 .col-6 {
   width: 48%;
   padding: 0 15px;
+}
+/* navbar started here */
+ul.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li.nav-link {
+  margin-right: 35px;
+}
+nav {
+  padding: 25px 0;
+}
+li.nav-link a {
+  font-size: 14px;
+}
+h3.author-name {
+  font-size: 22px;
+  color: #d1232f;
+}
+h1.author-position {
+  font-size: 52px;
+  color: #fff;
+  line-height: 62px;
+}
+p.profile-info {
+  color: #c8c6c6;
+  font-size: 14px;
+  margin: 15px 0;
+}
+button.btn-about {
+  background-color: #d1232f;
+  border: 1px solid #d1232f;
+  color: #fff;
+  padding: 7px 25px;
+}
+.card-design {
+  background-color: #1e1e1e;
+}
+.card-thumb img {
+  max-width: 40px;
+}
+.card-design {
+  padding: 25px;
+  margin: 25px;
+}
+.card-design:hover {
+  background-color: #c91b28;
+}
+.card-design:hover .card-content-description {
+  color: #fff;
+}
+.card-design:hover .btn-know {
+  color: #fff;
+}
+a.btn-know {
+  color: #d1232f;
+  font-size: 14px;
+}
+h3.card-content-heading {
+  color: #fff;
+  font-size: 18px;
+  margin: 10px 0;
+}
+p.card-content-description {
+  color: #b39999;
+  margin: 25px 0;
+}
+section#years-experience {
+  padding: 50px 0;
+}
+.card-box {
+  background-color: #1e1e1e;
+  margin: 20px;
+  width: 298px;
+  text-align: center;
+  padding: 25px;
+}
+h1.years-number {
+  color: #d1232f;
+  font-size: 75px;
+  font-weight: bold;
+}
+h3.years-expericence-heading {
+  color: #fff;
+}
+.card-years {
+  text-align: center;
+}
+h3.clients-heading {
+  color: #c91b28;
+  font-size: 38px;
+}
+p.clients-info {
+  color: #c8c6c6;
+}
+h1.featured-heading {
+  color: #fff;
+}
+p.featured-description {
+  color: #c8c6c6;
+  font-size: 12px;
+}
+.featured-view-all {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.row.row-1 {
+  padding: 50px 0;
+}
+.featured-card-thumb {
+  padding: 25px;
+  background-color: #1e1e1e;
+}
+h2.featured-content-head {
+  color: #fff;
+  font-size: 18px;
+}
+.featured-card-content {
+  padding: 25px 0;
+}
+.container.let\'s.work {
+  background-color: #1e1e1e;
+  padding: 50px;
+}
+section#let\'s\ work {
+  padding: 50px 0;
+}
+h1.let\'s-heading {
+  color: #fff;
+  line-height: 46px;
+  font-size: 36px;
+}
+p.let\'s-desciption {
+  font-size: 14px;
+  color: #c8c6c6;
+  margin: 25px 0;
+}
+.contact-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+section#design-section {
+  padding-top: 50px;
 }
