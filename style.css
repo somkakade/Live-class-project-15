@@ -105,6 +105,7 @@ p.card-content-description {
 }
 section#years-experience {
   padding: 50px 0;
+  position: relative;
 }
 .card-box {
   background-color: #1e1e1e;
@@ -181,4 +182,36 @@ p.let\'s-desciption {
 }
 section#design-section {
   padding-top: 50px;
+  position: relative;
+}
+ul.footer-menu-list {
+  display: flex;
+}
+ul.footer-menu-list li {
+  margin-right: 25px;
+}
+ul.social-icons {
+  display: flex;
+}
+ul.social-icons li {
+  margin-right: 35px;
+}
+footer {
+  background-color: #1e1e1e;
+  padding: 50px 0;
+}
+section#footer-menu {
+  padding: 25px 0;
+  display: flex;
+}
+.bgc-grapics::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 50%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #181818;
+  z-index: -1;
 }
